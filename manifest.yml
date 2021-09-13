@@ -1,0 +1,17 @@
+modules:
+  macro:
+    - key: panda-docs-app
+      function: main
+      title: Panda Docs
+      description: Integrate Panda Docs with Confluence!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/8f4963ff-428c-4db5-8bb8-bb0871930b61
+permissions:
+  scopes: []
+  external:
+    fetch:
+      backend:
+        - api.pandadoc.com
