@@ -8,7 +8,7 @@ modules:
     - key: main
       handler: index.run
 app:
-  id: ari:cloud:ecosystem::app/8f4963ff-428c-4db5-8bb8-bb0871930b61
+  id: ari:cloud:ecosystem::app/9c809801-80d7-4597-8276-91c2e287b6fa
 permissions:
   scopes: []
   external:
